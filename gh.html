@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+        <style>
+            .cent{
+                /*margin-left: 480px;*/
+                margin: 0 auto;
+                font-size: 30px;
+            }
+            .cent2{
+                /*margin-left: 460px;*/
+                margin: 0 auto;
+                font-size: 35px;
+                text-transform: unset;
+                color: black;
+                font-family: sans-serif;
+            }
+            body {
+                background: #c7b39b ; /* Цвет фона и путь к файлу */
+                color: #fff; /* Цвет текста */
+            }
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+            .button3{
+                font-size: 30px;
+                width: 297px;
+                padding: 10px;
+                background-color: black;
+                color: white;
+            }
+            .container{
+                margin: 0 auto;
+                width: 1000px;
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <P
+                class="cent2">Начнём с ваших данных<br>
+        </P>
+        <form action="3.php" target="_blank" class="cent">
+            <p class="cent">
+                логин
+            </P>
+            <input type="text" name="login" size="20" maxlength="10" class="cent"><br>
+            <p class="cent">
+                пароль
+            </p>
+            <input type="password" name="password" size="20" maxlength="32" class="cent"><br>
+
+            <p class="cent">
+                почта
+            </P>
+            <input type="email" name="e-mail" value="" size="20" maxlength="25" class="cent" required><br>
+            <!--        <input type="submit" id="qwer" class="button">Зарегистрироватся</input>-->
+            <!--        <input type="submit" id="qwer" class="button" placeholder="hfhg">-->
+            <p class="cent">
+                имя<br>
+            </P>
+            <input type="text" name="ima" value="" size="20" maxlength="10" class="cent"><br>
+            <p class="cent">
+                фамилия<br>
+            </p>
+            <input type="text" name="familia" size="20" maxlength="10" class="cent"><br><br>
+            <input type="date" id="date" name="date" class="cent"/><br><br>
+            <form class="cent3">
+            <button id="qwer2" class="button3">Зарегистрироваться</button>
+            <!--        <p id="nado">-->
+            <!--            <a class="button" href="1.php">Зарегистрироваться</a>-->
+            <!--        </p>-->
+            </form>
+        </form>
+    </div>
+    </body>
+</html>
